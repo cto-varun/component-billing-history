@@ -1,0 +1,32 @@
+{
+    "name": "@ivoyant/component-billing-history",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "Billing History",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "squirrelly": "^8.0.8",
+        "@ivoyant/component-message-bus": "^1.0.0"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
